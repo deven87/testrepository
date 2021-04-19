@@ -7,8 +7,8 @@ public class AccessModifiers {
     public static void main(String [] args)
     {
 
-        AccessModifiers1 accessModifiers1 = new AccessModifiers1();
-        System.out.println(accessModifiers1.w);
+        AccessModifiers1 accessModifiers = new AccessModifiers1();
+        System.out.println(accessModifiers.w);
 
         // different package and not using inheritance, you can access only public member of another class in another package
 
